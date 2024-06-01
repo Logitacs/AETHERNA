@@ -1,8 +1,7 @@
-
 ---
-
-Benvenuto nel Sistema di Informazioni interno della D.A.V.
-
+layout: single
+title: "Benvenuti nella Wiki del Gioco"
+description: "Esplora la lore, i dossier, le missioni e molto altro"
 ---
 
 Benvenuti nella Wiki del Gioco! Usa i link qui sotto per esplorare le diverse sezioni:
