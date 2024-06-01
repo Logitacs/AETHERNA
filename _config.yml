@@ -2,7 +2,7 @@ title: "Wiki del Gioco"
 description: "Una wiki interattiva per il tuo gioco di ruolo"
 baseurl: "" # Il percorso base del tuo sito, se non è nella root
 url: "https://tuonomeutente.github.io/wiki-del-gioco" # L'URL del tuo sito
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0" # Specifica il tema remoto e la versione
 plugins:
   - jekyll-remote-theme # Permette di usare un tema remoto
   - jekyll-seo-tag
@@ -36,4 +36,13 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/tuonomeutente"
+      
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
+gem "jekyll-remote-theme"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
 
