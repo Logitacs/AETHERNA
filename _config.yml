@@ -1,11 +1,39 @@
-remote_theme: mmistakes/minimal-mistakes
-
 title: "Wiki del Gioco"
 description: "Una wiki interattiva per il tuo gioco di ruolo"
 baseurl: "" # Il percorso base del tuo sito, se non è nella root
 url: "https://tuonomeutente.github.io/wiki-del-gioco" # L'URL del tuo sito
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-remote-theme # Permette di usare un tema remoto
+  - jekyll-seo-tag
 
-# Altre configurazioni specifiche del tema possono essere aggiunte qui
+# Altre configurazioni specifiche del tema
+theme: minimal-mistakes-jekyll
+
+# Configurazione del navigatore
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Lore"
+    url: /lore/
+  - title: "Dossier"
+    url: /dossier/
+  - title: "Missioni"
+    url: /missioni/
+  - title: "Notizie"
+    url: /notizie/
+
+# Impostazioni del tema
+minimal_mistakes_skin: "air" # Puoi cambiare la skin se vuoi
+
+# Autore
+author:
+  name: "Nome Autore"
+  avatar: "/assets/images/avatar.png"
+  bio: "Breve descrizione dell'autore"
+  location: "Location"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/tuonomeutente"
+
