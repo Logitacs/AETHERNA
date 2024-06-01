@@ -1,10 +1,8 @@
-# dossier/dossier1.md
 
 ---
 
-"Dossier 1"
+#"Dossier 1"
 
-"Rapporto di Missione - Operazione Alba Nera"
 ---
 
 ## Rapporto di Missione - Operazione Alba Nera
