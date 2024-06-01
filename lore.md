@@ -1,8 +1,7 @@
-
 ---
-
-"Lore"
-
+layout: single
+title: "Lore"
+description: "Storia e dettagli del mondo del gioco"
 ---
 
 ## Storia del Mondo Inverso
