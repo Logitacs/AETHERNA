@@ -1,0 +1,11 @@
+remote_theme: mmistakes/minimal-mistakes
+
+title: "Wiki del Gioco"
+description: "Una wiki interattiva per il tuo gioco di ruolo"
+baseurl: "" # Il percorso base del tuo sito, se non è nella root
+url: "https://tuonomeutente.github.io/wiki-del-gioco" # L'URL del tuo sito
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme # Permette di usare un tema remoto
+
+# Altre configurazioni specifiche del tema possono essere aggiunte qui
